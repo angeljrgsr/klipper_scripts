@@ -5,4 +5,4 @@ git add .
 git commit -m "Backup_$TIMESTAMP"
 git push -u origin master
 cd ~/scripts
-git clone https://github.com/angeljrgsr/klipper_scripts.git .
+git pull
