@@ -1,4 +1,4 @@
-rm -r printer-2*.cfg
+rm -r ~/printer_data/config/printer-2*.cfg
 cp ~/printer_data/database/*.* ~/printer_data/backup/git/database
 cp ~/printer_data/config/*.* ~/printer_data/backup/git/config
 TIMESTAMP=`date +%y-%m-%d_%T`
